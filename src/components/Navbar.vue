@@ -4,7 +4,7 @@
   <nav class="navbar">
     <div class="logo">
       <img src="./../../public/logo-navbar.png" alt="" />
-      <h2>TheBox</h2>
+      <img src="./../../src/assets/TheBox.png" alt="">
     </div>
     <div>
       <ul class="nav-links">
@@ -45,7 +45,13 @@
 .logo img {
   width: 40px;
   height: auto;
-    margin-right: 10px;
+  margin-right: 10px;
+}
+
+.logo img:last-child {
+  width: 100px; /* Samakan ukurannya dengan logo-navbar */
+  height: auto;
+  object-fit: contain; /* Pastikan gambar tetap proporsional */
 }
 
 .nav-links {

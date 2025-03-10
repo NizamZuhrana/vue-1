@@ -8,8 +8,8 @@ defineProps({
 
 <template>
   <div class="card">
-    <div class="icon">{{ icon }}</div>
-    <!-- <img :src="icon" alt=""> -->
+    <!-- <div class="icon">{{ icon }}</div> -->
+    <img :src="icon" alt="">
     <h3>{{ title }}</h3>
     <p>{{ description }}</p>
   </div>
@@ -29,11 +29,17 @@ defineProps({
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.icon {
+.card img {
+  width: 40px;
+  height: 40px;
+  /* margin-bottom: 10px; */
+}
+
+/* .icon {
     font-size: 30px;
     margin-bottom: 10px;
     color: #d17a63;
-}
+} */
 
 h3 {
   color: #333;

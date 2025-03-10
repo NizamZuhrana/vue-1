@@ -2,11 +2,13 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/Navbar.vue'
 import OurReputation from './components/OurReputation.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
   <Navbar />
   <OurReputation />
+  <Footer />
 </template>
 
 <style scoped>
